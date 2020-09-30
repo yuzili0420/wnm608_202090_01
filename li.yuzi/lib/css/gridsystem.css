@@ -1,0 +1,20 @@
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
+.col-1 { grid-column: span 1;}
