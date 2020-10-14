@@ -2,6 +2,14 @@
 	box-sizing:border-box;
 }
 
+:root {
+	--color-neutral-light: #eee;
+	--color-neutral-medium: #999;
+	--color-neutral-dark: #444;
+
+	--header
+}
+
 body {
 	margin: 0;
 	font-size:100;
@@ -15,4 +23,52 @@ h4,
 h5,
 h6 {
 	font-family: Cambria, Georgia, "Times New Romance", serif;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Layout Classes*/
+.container {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.display-flex {display: flex;}
+.display-block {display: block;}
+.display-inine-flex {display: inline-flex;}
+.display-inline-block {display:inline-block;}
+
+.flex-stretch {flex: 1 1 auto;}
+.flex-none {flex: none;}
+
+
+
+
+.view-window {
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.card {
+	background-color: var (--color-white);
+	padding: 1em;
+	margin-top: 1em;
+	
 }
