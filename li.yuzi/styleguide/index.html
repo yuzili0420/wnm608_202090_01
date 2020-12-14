@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Styleguide</title>
+
+  <base href="/aau/wnm608/li.yuzi/">
+
+
+	<link rel="stylesheet" type="text/css" href="lib/css/styleguide.css">
+  <link rel="stylesheet" type="text/css" href="lib/css/gridsystem.css">
+	<link rel="stylesheet" type="text/css" href="css/storetheme.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+   <!-- header>h1+p -->
+    <header class="navbar">
+      <div class="container display-flex flex-align-center">
+            <div class="flex-none"><h1>Styleguide</h1></div>
+        </div>
+    </header>
+   
+    <nav class="toc container">
+      <div class="card soft">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="styleguide/#typography">Typography</a></li>
+          <li><a href="styleguide/#grid">Grid</a></li>
+            <ul>
+            <li><a href="styleguide/#basic-grid">Basic Grid</a></li>
+            <li><a href="styleguide/#complex-grid">Complex Grid</a></li>
+            <li><a href="styleguide/#responsive-grid">Responsive Grid</a></li>
+            <li><a href="styleguide/#layout">Layout</a></li>
+            </ul>
+          <li><a href="styleguide/#card">Card</a></li>
+          <li><a href="styleguide/#view-window">View Window</a></li>
+          <li><a href="styleguide/#navigations">Navigations</a></li>
+          <li><a href="styleguide/#button">Button</a></li>
+          <li><a href="styleguide/#tables">Tables</a></li>
+        </ul>
+      </div>
+    </nav>
+   
+   <br>
+    <div class="container" id="typography">
+      <h2>Typography</h2>
+      <div class="card soft">
+        
+        <h3>Headings</h3>
+
+        <h4>Code</h4>
+
+        <code class="well">&lt;h1>Heading 1&lt;/h1>
+&lt;h2>Heading 2&lt;/h2>
+&lt;h3>Heading 3&lt;/h3>
+&lt;h4>Heading 4&lt;/h4>
+&lt;h5>Heading 5&lt;/h5>
+&lt;h6>Heading 6&lt;/h6>
+</code>
+        
+        <h4>Example</h4>
+        <div class="well">
+          <!-- h$*6{Heading $} -->
+          <h4>Site Heading: Arvo</h4>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+
+          <br>
+
+          <h4 style="font-family: 'Raleway';">Article Heading: Raleway</h4>
+          <h1 style="font-family: 'Raleway';">Heading 1</h1>
+          <h2 style="font-family: 'Raleway';">Heading 2</h2>
+          <h3 style="font-family: 'Raleway';">Heading 3</h3>
+          <h4 style="font-family: 'Raleway';">Heading 4</h4>
+          <h5 style="font-family: 'Raleway';">Heading 5</h5>
+          <h6 style="font-family: 'Raleway';">Heading 6</h6>
+          
+        </div>
+
+        <h3>Paragraphs</h3>
+
+        <div class="well">
+           <!-- p*3>Lorem50 -->
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat dolorum quaerat ipsum eius repellendus, dolores molestias minima eos. Vel, voluptates, repellat. Labore quasi dignissimos dolore exercitationem quam vero repudiandae ut asperiores, voluptatem odio alias dolor sit, tenetur quo vitae eum architecto, fugiat sunt assumenda quos itaque nulla ipsa placeat doloribus.</p>
+           <p>Vitae necessitatibus iste suscipit minus voluptatum. Quis earum provident sint quae, autem impedit iure. Voluptatem atque cum consequatur animi omnis. Rem illo, omnis beatae laboriosam ratione totam asperiores dolores natus modi tempora odit itaque non inventore ad labore ab explicabo nobis esse. Nulla dignissimos distinctio at dolor deserunt, minus neque.</p>
+           <p>Dignissimos, minus non, in numquam est obcaecati officia assumenda molestias perferendis delectus iure nulla ullam nobis laudantium commodi doloremque ex. Numquam, fuga accusamus, tempore inventore voluptatum culpa dolorum, laboriosam nulla quasi harum laudantium suscipit commodi rerum omnis possimus distinctio, ab iure odit ullam amet nesciunt quis corporis maiores itaque. Velit.</p>
+          </div>
+      </div>
+    </div>
+    
+    <br>
+    <div class="container" id="grid">
+      <h2>Gird</h2>
+       <div class="card soft">
+          <h3 id="basic-grid">Basic Grid</h3>
+
+          <div class="grid">
+             <!-- div.col-6>{Column 6} -->
+             <div class="col-6"><div class="well">Column 6</div></div>
+             <div class="col-6"><div class="well">Column 6</div></div>
+          </div>
+
+           <div class="grid">       
+             <!-- div.col-6>{Column 6} -->
+             <div class="col-4"><div class="well">Column 4</div></div>
+             <div class="col-4"><div class="well">Column 4</div></div>
+             <div class="col-4"><div class="well">Column 4</div></div>
+          </div>
+
+          <div class="grid">       
+             <!-- div.col-6>{Column 6} -->
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+          </div>
+
+          <div class="grid">       
+             <!-- make sure numbers always add to 12 -->
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-6"><div class="well">Column 6</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+          </div>
+         
+      
+             
+          <div>
+             <h3 id="complex-grid">Complex Grid</h3>
+          </div>
+
+          <hr>
+          <div class="grid">       
+             <!-- make sure numbers always add to 12 -->
+             <div class="col-6"><div class="well">Column 6</div></div>
+             <div class="col-6"><div class="well">Column 6</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-6"><div class="well">Column 6</div></div>
+             <div class="col-3"><div class="well">Column 3</div></div>
+             <div class="col-12"><div class="well">Column 12</div></div>
+          </div>
+
+          <hr>
+          <div class="grid">       
+             <!-- make sure numbers always add to 12 -->
+             <div class="col-6"><div class="well">
+               <div class="grid">
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+               </div>
+             </div></div>
+             <div class="col-6"><div class="well">
+               <div class="grid">
+                  <div class="col-4"><div class="well">4</div></div>
+                  <div class="col-4"><div class="well">4</div></div>
+                  <div class="col-4"><div class="well">4</div></div>
+  
+               </div>
+             </div></div>
+             
+          </div>
+       
+    
+     
+         <div>
+            <h3 id="responsive-grid">Responsive Grids</h3>
+         </div>
+         <div class="grid">
+            <div class="col-xs-12 col-md-6"><div class="well">Col 6</div>
+         </div>
+            <div class="col-xs-12 col-md-6"><div class="well">Col 6</div>
+         </div>
+         </div>
+
+         <hr>
+         <div class="grid gap">
+            <div class="col-xs-6 col-md-3"><div class="well">Col 6</div>
+         </div>
+            <div class="col-xs-6 col-md-3"><div class="well">Col 6</div>
+         </div>
+            <div class="col-xs-6 col-md-3"><div class="well">Col 6</div>
+         </div>
+            <div class="col-xs-6 col-md-3"><div class="well">Col 6</div>
+         </div>
+         </div>
+
+         <hr>
+         <div class="grid gap large">
+            <div class="col-xs-8 col-md-4 col-xl-12"><div class="well">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Pariatur, voluptatum qui vitae ipsa est dolor atque sit asperiores sapiente quos eos cupiditate quam et provident nesciunt odit. Tenetur, eos iusto provident cum autem iure delectus non excepturi saepe enim fuga earum perspiciatis beatae repudiandae assumenda minus quidem doloremque similique velit.</div>
+         </div>
+            <div class="col-xs-4 col-md-4 col-xl-6"><div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia ipsum doloremque tempora quidem. Saepe, accusamus, quidem. Harum recusandae nesciunt error libero ratione, possimus non culpa, perspiciatis odit dolor veniam fugiat, ad earum autem. Commodi, laudantium delectus tempora ipsum atque sunt pariatur aliquam nesciunt provident reiciendis obcaecati ab architecto deserunt.</div>
+         </div>
+            <div class="col-xs-12 col-md-4 col-xl-6"><div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium quas maxime amet consectetur. Dicta dolorem sequi beatae similique facilis fugit sunt aspernatur ratione officia, asperiores rem, iure neque! Neque iste, tenetur quis officia repellendus nostrum quam vero eius non facilis cupiditate reiciendis alias error nesciunt dolor atque sed, sapiente.</div>
+         </div>
+         </div>
+
+         <div>
+             <h3 id="layout">Layout</h3>
+          </div>
+          <div>
+             <h3>Title</h3>
+          </div>
+          <div class="grid gap">
+             <!-- .col-xs-12.col-md-4*3>.card.soft>{Item $} -->
+             <div class="col-xs-12 col-md-4">
+                <div class="card soft medium"><h3>Item 1</h3>
+                  <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Rem, perferendis!</p></div>
+             </div>
+             <div class="col-xs-12 col-md-4">
+                <div class="card soft dark"><h3>Item 2</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, saepe.</p></div>
+             </div>
+             <div class="col-xs-12 col-md-4">
+                <div class="card soft medium"><h3>Item 3</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure.</p></div>
+             </div>
+          </div>
+       </div>
+
+      </div>
+   
+
+             
+       <br>   
+    
+     
+
+     <div class="container" id="card">
+       <h2>Card</h2>
+
+       <div class="well">
+        <h3>Basic Card</h3>
+       
+              <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+            
+       
+              <h3>Soft Card</h3>
+       
+              <div class="card soft">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+            
+       
+             <h3>Hard Card</h3>
+       
+              <div class="card hard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+       
+             <h3>Dark Card</h3>
+       
+              <div class="card dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+       
+              <h3>Medium Card</h3>
+       
+              <div class="card medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+       
+               <h3>Purple Sky Card</h3>
+       
+              <div class="card purple-sky">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nesciunt nulla quaerat ipsum facere possimus sunt, reiciendis ex ab quisquam, voluptates dolor deserunt sint doloribus natus, nobis nam vero beatae?</div>
+
+            </div>
+
+           </div>
+            
+
+            <br>
+            <div class="container" id="view-window">
+              <h2>View Window</h2>
+              <div class="view-window" style="background-image: url(img/makeup-fun.jpg)"></div>
+            </div>
+
+          <br>
+            <div class="container" id="navigations">
+              <h2>Navigations</h2>
+
+              <script>
+                const makeNav = (classes='') => {
+                  const links = ['home','store','about','cart'];
+                  document.write(`
+                    <div>
+
+                    <nav class="${classes}">
+                  <ul>
+                    ${links.reduce((r,o,i)=>r+`<li><a href="#">${o}
+                      </a></li>`,'')}
+                    
+                  </ul>
+                </nav>
+                    </div>
+                    `)
+                }
+              </script>
+
+              <div class="well"><div class="card soft">
+                              <h3>Basic Nav</h3>
+                              <!-- nav.nav>ul>li*4>a[href=#]{Link $} -->
+                              <!-- <nav class="nav">
+                                <ul>
+                                  <li><a href="#">Link 1</a></li>
+                                  <li><a href="#">Link 2</a></li>
+                                  <li><a href="#">Link 3</a></li>
+                                  <li><a href="#">Link 4</a></li>
+                                </ul>
+                              </nav> -->
+                              <div class="grid">
+                                <div class="col-xs-4">
+                                  <script>makeNav('nav')</script>
+                                </div>
+                              </div>
+                              <div class="col-xs-8"></div>
+                            </div>
+              
+                            <div class="card soft">
+                              <h3>Flex Nav</h3>
+                              <script>makeNav('nav flex')</script>
+                            </div>
+              
+                            <div class="card soft">
+                              <h3>Stretch Nav</h3>
+                              <script>makeNav('nav stretch')</script>
+                            </div>
+              
+                            <div class="card soft">
+                              <h3>Pills Nav</h3>
+                              <script>makeNav('nav pills')</script>
+                            </div>
+              
+                            <div class="card soft">
+                              <h3>Breadcrumb Nav</h3>
+                              <script>makeNav('nav crumbs')</script>
+                            </div>
+
+                      </div>
+            </div>
+           <br>
+
+           <div class="container" id="button">
+            <h2>Button</h2>
+              <div class="card soft">
+                <button class="button button3">SHOP NOW</button>
+                <button class="button button1">ADD TO BAG</button>
+                  <button class="button button2">CHECK OUT</button>
+              </div>
+           </div>  
+
+           <br>
+
+           <script>
+            const makeTable = (classes='') => {
+              const head = ['ID','Office','Name','Email','Phone'];
+              const body = [
+                 ['522',"Hamilton Cline",'hcline@academyart.edu','555-2424'],
+                 ['512',"Fred McHale",'fmchale@academyart.edu','555-2424'],
+                 ['522',"Michael Catanzaro",'mcantanzaro@academyart.edu','555-2424'],
+                 ['514',"Andrea Pimental",'apimentel@academyart.edu','555-2424'],
+                 ['516',"DC Scaroelli",'dscarpelli@academyart.edu','555-2424'],
+              ];
+
+              document.write(`
+                <table class="${classes}">
+                    <thead><tr>${head.reduce((r,o)=>r+`<th>${o}</th>`,'')}</tr></thead>
+                    <tbody>
+                    ${body.reduce((r,o,i)=>r+
+                      `<tr>${[i+1,...o].reduce((r,o)=>r+`<td>${o}</td>`,'')}</tr>`
+                    ,'')}
+                    </tbody>
+
+                </table>
+                `)
+            }
+           </script>
+
+           <div class="container" id="tables">
+              <h2>Tables</h2>
+
+              <div class="card soft">
+                <h3>Basic Table</h3>
+
+                <script>makeTable('table')</script>      
+              </div> 
+              <div class="card soft">
+                <h3>Striped Table</h3>
+
+                <script>makeTable('table striped')</script>      
+              </div>    
+              <div class="card soft">
+                <h3>Lined Horizontal</h3>
+
+                <script>makeTable('table lined horizontal')</script>      
+              </div> 
+              <div class="card soft">
+                <h3>Lined Vertical</h3>
+
+                <script>makeTable('table lined vertical')</script>      
+              </div> 
+              <div class="card soft">
+                <h3>Lined Border</h3>
+
+                <script>makeTable('table lined border')</script>      
+              </div>   
+              <div class="card soft">
+                <h3>Lined Every</h3>
+
+                <script>makeTable('table lined border vertical horizontal')</script>      
+              </div>
+              <div class="card soft">
+                <h3>Lined All</h3>
+
+                <script>makeTable('table lined all striped')</script>      
+              </div>
+
+              <div class="container">
+                <h2>Forms</h2>
+
+                <div class="card soft">
+                  <h3>Baisc Input</h3>
+                  <form>
+                    <input type="text" placeholder="Text" class="form-input">
+                    <input type="number" placeholder="Number" class="form-input">
+                    <input type="search" placeholder="Search" class="form-input">
+                    <input type="password" placeholder="Password" class="form-input">
+                  </form>
+
+                  <h3>Form Label &amp; Control</h3>
+                  <form>
+                    <div class="form-control">
+                      <label for="example-1"class="form-label">Example</label>
+                      <input id="example-1" type="text" placeholder="Text" class="form-input">
+                    </div>
+                    <div class="form-control">
+                      <label for="example-2"class="form-label">Example</label>
+                      <input id="example-2" type="text" placeholder="Text" class="form-input">
+                    </div>
+                    <div class="form-control">
+                      <label for="example-3"class="form-label">Example</label>
+                      <input id="example-3" type="text" placeholder="Text" class="form-input">
+                    </div>
+                    <div class="display-flex flex-align-center">
+                      <div class="flex-none">
+                        <label for="example-search" class="form-label">Search</label>
+                      </div>
+                      <div class="flex-stretch">
+                        <input id="example-search" type="search" placeholder="Text" class="form-input">
+                      </div>
+                      <div class="flex-none">
+                        <label for="example-search" class="form-label">Search</label>
+                      </div>
+                      <div class="flex-stretch">
+                        <input id="example-search" type="search" placeholder="Text" class="form-input">
+                      </div>
+                    </div>
+                  </form>
+
+                  <h3>Buttons</h3>
+
+                  <div class="form-control">
+                    <button type="button" class="form-button">Button</button>
+                  </div>
+                  <div class="form-control">
+                    <input type="button" class="form-button" value="button"> 
+                  </div>
+                  <div class="form-control">
+                    <div class="display-flex flex-align-center">
+                      <div class="flex-stretch">Choose on the right</div>
+                      <div class="flex-none"><a href="#" class="form-button">Button</a></div>
+                    </div>
+                    
+                  </div>
+                  <div class="form-control">
+                    <a href="#" class="btn sell">Button</a>
+                  </div>
+                  <div class="form-control">
+                    <a href="#" class="btn inline">Button</a>
+                    <a href="#" class="btn inline">Button</a>
+                  </div>
+
+                  <h3>Hotdog</h3>
+
+                  <div class="hotdog">hotdog</div>
+
+                  <form>
+                    <input type="search" class="hotdog dark">
+                  </form>
+                  <form>
+                    <div class="form-control">
+                      <div class="hotdog">
+                        <input type="text" id="example-search">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGlkPSJFZGl0YWJsZS1saW5lIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNCIgZmlsbD0ibm9uZSIgaWQ9IlhNTElEXzQyXyIgcj0iOSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgZmlsbD0ibm9uZSIgaWQ9IlhNTElEXzQ0XyIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiB4MT0iMjciIHgyPSIyMC4zNjYiIHkxPSIyNyIgeTI9IjIwLjM2NiIvPjwvc3ZnPg==" style="color: var(--color-alt-dark);" alt="" class="icon">            
+                      </div>
+                    </div>
+                  </form>
+
+                  <h3>Select</h3>
+                  <div class="grid">
+                    <div class="col-xs-12 col-md-8">
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Corrupti distinctio vel quaerat, nam, architecto nesciunt nostrum, soluta voluptas dolorem libero rem, mollitia id? Similique dolor velit inventore magnam non? Possimus, veritatis tempore labore. Aperiam, quisquam id, ab quos nobis quidem.</p>
+                      <p>Incidunt pariatur quisquam inventore, accusamus tempore. Quaerat aperiam, fuga velit recusandae fugiat. Non asperiores, obcaecati, quisquam incidunt velit ex voluptates distinctio, inventore quis cum expedita dolores perferendis odio veniam, qui labore eaque. Voluptas, eligendi ea velit hic similique facilis. Quas?</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                      <div class="form-select">
+                    <select>
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                    </div>
+                  </div>
+
+                  <h3>Checkbox</h3>
+                  <div class="fomr-control">
+                    <label>
+                      Text<input type="checkbox">
+                    </label>
+                  </div>
+                  <div class="fomr-control">
+                    <input type="checkbox" id="check-example">
+                    <label for="check-example">
+                      Text
+                    </label>
+                  </div>
+
+                  <!-- Checkbox Trick -->
+                  <div class="toggle">
+                    <input type="checkbox" id="toggle-1" class="hidden">
+                    <label for="toggle-1">
+                    </label>
+                  </div>
+                  <div class="toggle" style="font-size: 2em">
+                    <input type="checkbox" id="toggle-2" class="hidden">
+                    <label for="toggle-2">
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+               <h2>Product Figure</h2>
+
+               <div class="well">
+                 <h3>Figure</h3>
+
+                <figure>
+                  <img src="http://via.placeholder.com/600x600" alt="">
+                  <figcaption>This is an image</figcaption>
+                </figure>
+
+                <h3>Product Figure</h3>
+                <div class="grid gap">
+                  <div class="col-xs-12 col-md-4">
+                        <figure class="product-item">
+                      <div class="product-image">
+                        <img src="http://via.placeholder.com/600x600?text=Product" alt="">
+                      </div>
+                      <figcaption class="product-description">
+                        <div class="product-price">&dollar;12.99</div>
+                        <div class="product-title">Lip Gloss</div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-xs-12 col-md-8"><p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Aperiam voluptate suscipit sapiente ut a enim reprehenderit modi quasi tempora magnam vero mollitia laboriosam facere, quisquam unde neque cupiditate. Debitis velit quae, voluptatibus magnam omnis excepturi voluptas laboriosam nulla ipsam illo.</p>
+                  <p>Alias consectetur nisi fugit fugiat sed corporis, sint odit, iusto dolorem cupiditate nostrum, quisquam! Nostrum quam blanditiis eius dolorum quasi ab nam inventore tempore explicabo iure architecto, temporibus beatae molestias in id ducimus aspernatur, officia nesciunt debitis nihil, sit perspiciatis.</p>
+                </div>
+                </div>
+
+                <div class="grid gap">
+                  <div class="col-xs-12 col-md-4">
+                        <a href="#">
+                          <figure class="product-item">
+                                                <div class="product-image">
+                          <img src="http://via.placeholder.com/600x600?text=Product" alt="">
+                                                </div>
+                                                <figcaption class="product-description">
+                          <div class="product-price">&dollar;12.99</div>
+                          <div class="product-title">Lip Gloss</div>
+                                                </figcaption>
+                                              </figure>
+                        </a>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <figure class="product-item">
+                        <div class="product-image">
+                          <img src="http://via.placeholder.com/600x600?text=Product" alt="">
+                        </div>
+                        <figcaption class="product-description">
+                          <div class="product-price">&dollar;12.99</div>
+                          <div class="product-title">Lip Gloss</div>
+                        </figcaption>
+                      </figure>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                        <a href="#">
+                          <figure class="product-item">
+                                                <div class="product-image">
+                          <img src="http://via.placeholder.com/600x600?text=Product" alt="">
+                                                </div>
+                                                <figcaption class="product-description">
+                          <div class="product-price">&dollar;12.99</div>
+                          <div class="product-title">Lip Gloss</div>
+                                                </figcaption>
+                                              </figure>
+                        </a>
+                  </div>
+                </div>
+
+
+
+               </div>
+            </div>
+
+</body>
+</html>

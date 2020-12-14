@@ -1,0 +1,163 @@
+:root {
+	--color-neutral-light: #f0ecec;
+	--color-neutral-medium: #9e8d8d;
+	--color-neutral-dark: #392f2f;
+
+
+	--color-main-light: #ece8f3;
+	--color-main-medium: #cfa8caff;
+	--color-main-dark: #896384ff;
+
+	--color-alt-light: #e7ecff;
+	--color-alt-medium: #abb6cbff;
+	--color-alt-dark: #636c96;
+
+	--color-warning: blue;
+	--color-error: blue;
+  --color-purchase: #e7ecff;
+
+
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #f9f9f9;
+	padding-bottom: 10em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Arvo', serif;
+}
+
+
+
+.view-window>h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.3);
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+    font-size: 3em;
+}
+
+
+[class*='col-'].card {
+	height: 100%;
+	margin:0;
+}
+
+[class*='col-']>.well {
+	height: 100%;
+}
+
+
+/* Product List Design */
+.product-item {
+    margin: 0;
+    border-radius:0.7em;
+    background-color:white;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.2);
+    padding:1em;
+    transition:all 0.3s;
+    display:block;
+    height:100%;
+}
+
+a.product-item:hover {
+  text-decoration:none;
+  transform:scale(1.01);
+}
+
+.product-item figure {
+  margin:0;
+}
+
+.product-item:hover {
+    box-shadow:1px 1px 12px rgba(0,0,0,0.4);
+}
+
+.product-image img {
+   width:100%;
+}
+
+.product-price,
+.product-title {
+   font-weight:normal;
+}
+
+a:hover .product-item {
+   text-decoration:none !important;
+}
+
+.product-price {
+    font-size: 1.2em;
+    padding: 0.2em 0.4em;
+}
+
+.product-title {
+    font-size: 0.9em;
+}
+
+.product-image {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 80%;
+}
+
+
+@media (max-width: 600px) {
+	h2{
+		font-size: 1em;
+	}
+
+  h3{
+    font-size: 0.85em;
+  }
+}
+
+.button1 {
+  background-color: white; 
+  color: var(--color-alt-dark);
+  border: 1px solid var(--color-alt-dark);
+}
+
+.button1:hover {
+  background-color: var(--color-alt-medium);
+  border-color: var(--color-alt-medium);
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: var(--color-main-dark); 
+  border: 1px solid var(--color-main-dark);
+}
+
+.button2:hover {
+  background-color: var(--color-main-medium);
+  border-color: var(--color-main-medium);
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: var(--color-main-medium); 
+  border: 1px solid var(--color-main-medium);
+}
+
+.button3:hover {
+  background: linear-gradient(127deg, #cbc4e0ff, #f2cdc4ff),
+				linear-gradient(336deg, #d99f93ff, #e7f2ebff);
+  border-color: transparent;
+  color: white;
+}
