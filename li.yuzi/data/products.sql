@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 16, 2020 at 11:35 AM
+-- Generation Time: Dec 16, 2020 at 05:20 PM
 -- Server version: 5.6.49-cll-lve
 -- PHP Version: 7.3.6
 
@@ -56,7 +56,8 @@ INSERT INTO `products` (`id`, `title`, `category`, `image_main`, `date_create`, 
 (9, 'EVE LOM CLEANSER 200ML', 'beauty', 'img/beauty/', '2020-12-16 11:19:27', '2020-12-16 11:19:27', 69.00, '1', 'This unique balm formula that contains a unique signature blend of 4 aromatic oils to cleanse, hydrate, tone, exfoliate and remove every trace of makeup. Condition: brand-new'),
 (10, 'KIKO TUSCAN SUNSHINE PERFECTING POWDER', 'beauty', 'img/beauty/evelom_cleanser.jpg', '2020-12-16 11:20:41', '2020-12-16 11:20:41', 6.00, '1', 'Perfecting powder with fixing and highlighting properties. Condition: 96% new.'),
 (11, 'JO MALONE COLOGNE SET', 'beauty', 'img/beauty/jomalone_set.jpg', '2020-12-16 11:22:31', '2020-12-16 11:22:31', 88.00, '1', '30ml * 2 in Red Roses and Wood Sage & Sea Salt. Condition: 90% left.'),
-(12, 'FENTY BEAUTY SUN STALK\'R INSTANT WARMTH BRONZER', 'beauty', 'img/beauty/fenty_bronzer.jpg', '2020-12-16 11:24:54', '2020-12-16 11:24:54', 23.00, '1', 'INSTANT SUN-SOAKED GLOW THAT LASTS. BLENDABLE, BUILDABLE, TRANSFER-RESISTANT. Fill weight: 6.23 g/ 0.22 oz. Condition: 98% new');
+(12, 'FENTY BEAUTY SUN STALK\'R INSTANT WARMTH BRONZER', 'beauty', 'img/beauty/fenty_bronzer.jpg', '2020-12-16 11:24:54', '2020-12-16 11:24:54', 23.00, '1', 'INSTANT SUN-SOAKED GLOW THAT LASTS. BLENDABLE, BUILDABLE, TRANSFER-RESISTANT. Fill weight: 6.23 g/ 0.22 oz. Condition: 98% new'),
+(13, 'SERGE LUTENS EAU DE PARFUM SET', 'beauty', 'img/beauty/sergelutens_set.jpg', '2020-12-16 17:19:59', '2020-12-16 17:19:59', 230.00, '1', 'Beautifully dark and breathtaking scent……50ml * 2 in L\'ORPHELINE\r\n and LA FILLE DE BERLIN. Condition: 95% left.');
 
 --
 -- Indexes for dumped tables
@@ -76,7 +77,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
